@@ -1,6 +1,12 @@
+
+
 .hero {
     background: url("/assets/images/COE33.01.jpg") no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 40vh;
   }
+
+.bg-secondary {
+  background-color: #547985 !important;
+}
