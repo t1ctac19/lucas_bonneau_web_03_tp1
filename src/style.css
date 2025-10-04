@@ -1,12 +1,45 @@
+@font-face {
+  font-family: 'Cinzel';
+  src: url('../assets/font/static/Cinzelp-Extrabold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/font/static/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+p{
+  font-family: 'Montserrat', serif;
+  font-size: large;
+}
 
 .hero {
-    background: url("/assets/images/COE33.01.jpg") no-repeat center center;
-    background-size: cover;
-    width: 100%;
-    height: 40vh;
-  }
+  background: url("/assets/images/COE33.01.jpg") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+}
 
 .bg-secondary {
   background-color: #547985 !important;
+}
+
+.border-secondary {
+  border-color: #547985 !important;
+}
+
+h1,
+h2,
+h3,
+.lead {
+  font-family: 'Cinzel', serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.text-center {
+  text-align: center !important;
 }
